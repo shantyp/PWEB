@@ -1,0 +1,35 @@
+/* navigation bar */
+ul {
+    list-style-type : none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #011553;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+/* berubah warna ketika diarahkan kursor */
+li a:hover {
+    background-color: #f0e3af;
+}
+.active {
+    background-color: #c89654;
+}
+.footer {
+    background-color: #011553;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding: 10px;
+}
+
